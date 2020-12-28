@@ -1,0 +1,7 @@
+version: '0.1'
+services:
+    tesseract:
+        image: alexjohnson/tesseract-java:latest
+        volumes:
+            - /home/nguyenpham/Directory/dockers/tesseract::
+        
